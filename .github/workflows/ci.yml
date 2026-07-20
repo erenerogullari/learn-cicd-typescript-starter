@@ -19,4 +19,4 @@ jobs:
           node-version: 22
 
       - name: Node version
-        run: (node --version && exit 0)
+        run: node --version
